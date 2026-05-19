@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Chief of Staff Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    max-width: 1200px; margin: 0 auto; padding: 32px 24px;
+    background: #fafaf9; color: #1a1a1a; line-height: 1.5;
+  }
+  header { margin-bottom: 32px; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 18px; margin-top: 32px; margin-bottom: 12px; color: #444; }
+  h3 { font-size: 15px; margin-top: 16px; margin-bottom: 8px; color: #555; font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 14px; }
+  th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid #e5e5e5; }
+  th { background: #f5f5f4; font-weight: 600; }
+  .status-on-track { color: #16a34a; font-weight: 600; }
+  .status-at-risk  { color: #ea580c; font-weight: 600; }
+  .status-off-track { color: #dc2626; font-weight: 600; }
+  .subtle { color: #888; font-size: 13px; }
+  section { margin-bottom: 24px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+  .card {
+    background: #fff; border: 1px solid #e5e5e5; border-radius: 8px;
+    padding: 16px;
+  }
+  .card h3 { margin-top: 0; }
+  .empty-state {
+    background: #fef9c3; border-left: 4px solid #facc15;
+    padding: 12px 16px; margin: 12px 0; border-radius: 4px;
+    font-size: 14px; color: #713f12;
+  }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 4px; }
+  footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e5e5e5; color: #888; font-size: 13px; }
+  code { background: #f5f5f4; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>AI Chief of Staff Dashboard</h1>
+  <p class="subtle">Run <code>/dashboard</code> in Claude Code to populate this with your live data.</p>
+</header>
+
+<div class="empty-state">
+  <strong>Welcome to your AI Chief of Staff.</strong> This dashboard is a placeholder. Once you set up your CLAUDE.md, rocks.md, and scorecard.md, run <code>/dashboard</code> and Claude will fill in every section below with your real data.
+</div>
+
+<section>
+  <h2>Top 3 Priorities</h2>
+  <div class="empty-state">Not yet populated — ask Claude to set up <code>CLAUDE.md</code> first. Run: <em>"let's set up my AI Chief of Staff."</em></div>
+</section>
+
+<section>
+  <h2>This Week</h2>
+  <h3>MIT (Most Important Thing)</h3>
+  <div class="empty-state">Not yet populated — run <code>/weekly-plan</code> on Sunday or Monday.</div>
+  <h3>Big 3</h3>
+  <ul>
+    <li class="subtle">1. (Populated by <code>/weekly-plan</code>)</li>
+    <li class="subtle">2. (Populated by <code>/weekly-plan</code>)</li>
+    <li class="subtle">3. (Populated by <code>/weekly-plan</code>)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Current Quarter Rocks</h2>
+  <table>
+    <thead>
+      <tr><th>Rock</th><th>OKR</th><th>Status</th><th>Last updated</th></tr>
+    </thead>
+    <tbody>
+      <tr><td colspan="4" class="subtle">Not yet populated — set up <code>context/rocks.md</code>. Ask Claude: <em>"let's set up my Q[N] Rocks."</em></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Weekly Scorecard Snapshot</h2>
+  <div class="empty-state">Not yet populated — set up <code>context/scorecard.md</code>. Ask Claude: <em>"let's set up my scorecard."</em></div>
+</section>
+
+<section>
+  <h2>Connected Tools</h2>
+  <table>
+    <thead>
+      <tr><th>Tool</th><th>Status</th><th>Purpose</th></tr>
+    </thead>
+    <tbody>
+      <tr><td colspan="3" class="subtle">No MCP servers connected yet. To add one, ask Claude: <em>"help me add [tool] to my CoS."</em></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Active Commands</h2>
+  <div class="grid">
+    <div class="card"><h3>/day</h3><p class="subtle">Morning dashboard</p></div>
+    <div class="card"><h3>/weekly-plan</h3><p class="subtle">Plan the week</p></div>
+    <div class="card"><h3>/weekly-wrap-up</h3><p class="subtle">Close the week</p></div>
+    <div class="card"><h3>/debrief</h3><p class="subtle">Process a call</p></div>
+    <div class="card"><h3>/dashboard</h3><p class="subtle">Refresh this view</p></div>
+    <div class="card"><h3>/grow</h3><p class="subtle">Suggest next CoS upgrade</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Recent Wins</h2>
+  <div class="empty-state">Will populate from <code>history/</code> wrap-ups and completed Notion tasks once you have some.</div>
+</section>
+
+<section>
+  <h2>CoS Growth (Expansion Roadmap)</h2>
+  <p class="subtle">From <code>context/expansion-roadmap.md</code> — checkboxes update as you add capabilities.</p>
+  <table>
+    <thead>
+      <tr><th>Layer</th><th>Status</th><th>Items pending</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>L1 — Foundation</strong></td><td>📋 Setup needed</td><td>Populate CLAUDE.md, rocks.md, scorecard.md</td></tr>
+      <tr><td>L2 — Connected</td><td>📋 Not started</td><td>Add MCP servers, custom commands</td></tr>
+      <tr><td>L3 — Team</td><td>📋 Not started</td><td>—</td></tr>
+      <tr><td>L4 — Systemic</td><td>📋 Not started</td><td>—</td></tr>
+      <tr><td>L5 — Engine</td><td>📋 Not started</td><td>—</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Suggested Next Step</h2>
+  <div class="empty-state">
+    <strong>Set up CLAUDE.md first.</strong> Open Claude Code in this folder and say: <em>"Read the framework files in this project — they're set up but mostly empty. Then walk me through filling in CLAUDE.md."</em>
+    <br><br>Once that's populated, the dashboard will start suggesting layer-by-layer next steps automatically.
+  </div>
+</section>
+
+<footer>
+  <p>Last updated: (will populate when you run <code>/dashboard</code>) · Run <code>/dashboard</code> anytime to refresh.</p>
+  <p style="margin-top: 8px;">Built with the <a href="https://github.com/brandonpassley/ai-chief-of-staff-starter" style="color: #555;">AI Chief of Staff Starter</a> by <a href="https://hyperedge.studio" style="color: #555;">Hyperedge</a>.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+# Local Claude Code settings (contains permissions, API keys)
+.claude/settings.local.json
+
+# MCP config with auth tokens — never commit
+.mcp.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+
+# Node (if you add anything)
+node_modules/
