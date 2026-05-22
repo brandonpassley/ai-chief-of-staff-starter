@@ -9,7 +9,7 @@ The full install runbook for your AI Chief of Staff. If you just want the quick 
 You'll need:
 - A computer (Mac or Windows)
 - A Claude account ([sign up free](https://claude.ai))
-- ~30-60 minutes for first install
+- Under 30 minutes for first install (most of which is just answering Claude's questions, not technical setup)
 
 You do NOT need:
 - Coding experience
@@ -29,67 +29,25 @@ You do NOT need:
 
 ---
 
-## Step 2: Get the Starter Kit on Your Computer
+## Step 2: Open Claude Code in an Empty Folder, Paste a Prompt
 
-Three install paths. Pick the one that fits you:
+The simplest path — no GitHub account, no git, no ZIP. Claude downloads the starter for you on the first message.
 
-### Path A: Use This as a GitHub Template (recommended)
-
-1. Go to [the GitHub repo for this starter](https://github.com/brandonpassley/ai-chief-of-staff-starter)
-2. Click the green **"Use this template"** button → **"Create a new repository"**
-3. Pick a name (e.g., `my-ai-chief-of-staff`) — this is YOUR copy
-4. Make it private (you don't want your CoS content public)
-5. On your new repo, click **"Code"** → **"Open with GitHub Desktop"** (if installed) OR copy the clone URL
-
-Then in Claude Code Desktop:
-- File → Open Folder → clone from URL → paste your repo URL → pick a location → Open
-
-**Why this is the recommended path:** Every file (including the hidden `.claude/` folder) transfers correctly. You also get version history — git tracks every change so you can roll back if Claude breaks something.
-
-### Path B: Git Clone via Terminal (faster if you're already comfortable with git)
-
-Open Terminal (Mac: `Cmd+Space` → type "Terminal" → Enter. Windows: install [Git for Windows](https://git-scm.com/download/win) first):
-
-```bash
-git clone https://github.com/brandonpassley/ai-chief-of-staff-starter.git my-ai-cos
-cd my-ai-cos
-```
-
-Open the `my-ai-cos` folder in Claude Code Desktop.
-
-### Path C: Download ZIP (fallback)
-
-1. On the GitHub repo, click **"Code"** → **"Download ZIP"**
-2. Extract the ZIP file
-3. Move the extracted folder anywhere you want (e.g., `Documents/my-ai-cos`)
-
-⚠️ **Mac note:** The starter includes hidden files (`.claude/`, `.gitignore`, `.mcp.json.example`). Finder hides files starting with a dot by default. To see them: press **`Cmd + Shift + .`** in Finder (toggleable). The hidden files DO get downloaded and DO work — they're just invisible in Finder.
-
-⚠️ **If you ever copy or move the folder around** in Finder/Explorer, make sure hidden files come along. If they don't, slash commands and MCP config won't work.
-
-Open the folder in Claude Code Desktop.
-
----
-
-## Step 3: Start Your First Conversation
-
-In Claude Code Desktop with your starter folder open, paste this prompt into the chat:
+1. Make an empty folder somewhere on your computer (e.g., `Documents/my-ai-cos`).
+2. Open Claude Code Desktop → **File → Open Folder** → pick that folder.
+3. Paste this prompt into the chat:
 
 ```
-Hi! I'm setting up my AI Chief of Staff. Read the framework
-files in this project — they're set up but mostly empty. Then
-greet me and walk me through filling in the first one. Lead the
-conversation. Push back on thin answers. Write to the files as
-you learn what I tell you. Start now.
+Hi! I want to set up an AI Chief of Staff in this folder.
+Download the starter kit from
+https://github.com/brandonpassley/ai-chief-of-staff-starter
+into this folder (curl + tar, no git needed). Then read the
+framework files and walk me through setup. Lead the
+conversation. Push back on thin answers. Write to the files
+as we go.
 ```
 
-Claude will:
-1. Read the framework files
-2. Greet you and ask what to set up first (start with CLAUDE.md — it's the keystone)
-3. Lead you through a structured conversation
-4. Write your answers to the appropriate files
-
-**You don't type into the markdown files.** Claude does. You have a conversation.
+Claude will download the starter, read the framework files, and start the walkthrough. **You don't type into the markdown files.** Claude does. You have a conversation.
 
 > 💡 **Skip the typing for the basics:** When Claude starts on `CLAUDE.md`, you can paste your LinkedIn URL/text, drop a screenshot of your profile or personal site, or paste any existing bio. Claude will pre-fill Name, Role, and Background — then you only have to answer the parts only you can (priorities, working style, how you want to be coached).
 
@@ -101,14 +59,43 @@ Most operators take 3-5 setup conversations spread across their first week:
 
 ---
 
-## Step 4: Run Your First Slash Command
+### Alternative install paths
+
+Skip this section unless you want to grab the files yourself (e.g., you want git version history so you can roll back changes Claude makes).
+
+**GitHub Template:** [Go to the repo](https://github.com/brandonpassley/ai-chief-of-staff-starter) → click **"Use this template"** → create your own private copy → open in Claude Code Desktop.
+
+**Git clone:**
+```bash
+git clone https://github.com/brandonpassley/ai-chief-of-staff-starter.git my-ai-cos
+cd my-ai-cos
+```
+Then open the `my-ai-cos` folder in Claude Code Desktop.
+
+**ZIP download:** On the repo, click **Code → Download ZIP** → extract → open the folder in Claude Code.
+
+⚠️ **Mac note:** The starter includes hidden files (`.claude/`, `.gitignore`, `.mcp.json.example`). Finder hides files starting with a dot by default. Press **`Cmd + Shift + .`** to toggle them visible. The hidden files DO get downloaded and DO work — they're just invisible in Finder. If you ever copy/move the folder, make sure hidden files come along, or slash commands and MCP config won't work.
+
+If you used one of these alternative paths, kick off setup with this prompt instead of the one above:
+
+```
+Hi! I'm setting up my AI Chief of Staff. Read the framework
+files in this project — they're set up but mostly empty. Then
+greet me and walk me through filling in the first one. Lead the
+conversation. Push back on thin answers. Write to the files as
+you learn what I tell you. Start now.
+```
+
+---
+
+## Step 3: Run Your First Slash Command
 
 Once `CLAUDE.md` is populated, type `/day` in the chat. Claude will:
 - Read your CLAUDE.md
 - Generate your first morning dashboard
 - End with a Coach's Pulse
 
-If you have Notion or Calendar connected (you don't yet — that's Step 5), it'll pull from those too. If not, it'll prompt you to add them.
+If you have Notion or Calendar connected (you don't yet — that's Step 4), it'll pull from those too. If not, it'll prompt you to add them.
 
 Other commands available immediately:
 - `/weekly-plan` — Sun/Mon plan (once rocks.md is populated)
@@ -119,7 +106,7 @@ Other commands available immediately:
 
 ---
 
-## Step 5: Connect Your First Tool (MCP Server)
+## Step 4: Connect Your First Tool (MCP Server)
 
 Your CoS gets meaningfully more useful when it can read your real data. The most useful first additions:
 
@@ -210,7 +197,7 @@ Or ask Claude: *"push my changes to GitHub."*
 
 ### "I want to start over"
 - Delete your project folder
-- Run Step 2 again (re-clone or re-download)
+- Run Step 2 again (paste the prompt into a fresh empty folder, or re-clone)
 - Your old CLAUDE.md content can be restored if you have it in git history
 
 ---

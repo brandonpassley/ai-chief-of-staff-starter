@@ -28,22 +28,26 @@ A working starter repo for an AI Chief of Staff. Drop the folder on your compute
 
 ## Quick Start
 
+No GitHub account, no git, no ZIP downloads. Just:
+
 1. **Install [Claude Code Desktop](https://docs.claude.com/claude-code)** (macOS or Windows)
-2. **Download this folder** and drop it on your computer
-3. **Open the folder in Claude Code**
-4. **Paste this prompt into the chat:**
+2. **Make an empty folder** anywhere on your computer (e.g., `Documents/my-ai-cos`)
+3. **Open that folder in Claude Code** (File → Open Folder)
+4. **Paste this prompt:**
 
 ```
-Hi! I'm setting up my AI Chief of Staff. Read the framework
-files in this project — they're set up but mostly empty. Then
-greet me and walk me through filling in the first one. Lead the
-conversation. Push back on thin answers. Write to the files as
-you learn what I tell you. Start now.
+Hi! I want to set up an AI Chief of Staff in this folder.
+Download the starter kit from
+https://github.com/brandonpassley/ai-chief-of-staff-starter
+into this folder (curl + tar, no git needed). Then read the
+framework files and walk me through setup. Lead the
+conversation. Push back on thin answers. Write to the files
+as we go.
 ```
 
 5. **Have a conversation.** Claude leads.
 
-That's it. You'll have a working **Layer 1 AI Chief of Staff** within 30 minutes.
+That's it. You'll have a working **Layer 1 AI Chief of Staff** in under 30 minutes — and most of that is just answering Claude's questions, not technical setup. Prefer to clone the repo yourself? See [SETUP.md](SETUP.md) for alternative install paths.
 
 ---
 
