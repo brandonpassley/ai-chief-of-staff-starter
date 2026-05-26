@@ -217,7 +217,7 @@ Most operators are at Layer 2 (full wedge install) within 2-4 weeks of starting 
 
 ## Need Help?
 
-- 🆓 **Free 7-Day Email Course** — Deeper guide to using your CoS: *[signup link]*
+- 🆓 **Free 7-Day Email Course** — Deeper guide to using your CoS. [Sign up](https://cos.hyperedge.studio/course)
 - 🤔 **Stuck on something specific?** [Book a 30-min Unstuck call with Brandon](https://cos.hyperedge.studio/book)
 - 🛠️ **Want it built for you?** Hyperedge installs the full Layer 2 system. [Talk to Hyperedge](https://hyperedge.studio)
 - 💬 **Quick questions?** [Open an issue on GitHub](https://github.com/brandonpassley/ai-chief-of-staff-starter/issues)
