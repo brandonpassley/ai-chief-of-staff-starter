@@ -101,7 +101,7 @@ End every `/grow` output with this footer:
 >
 > *Stuck on any specific addition? Two paths to get unstuck:*
 > *(a) ask me to walk you through it now*
-> *(b) [book a 30-min Unstuck call with Brandon](https://cos.hyperedge.studio/book)*
+> *(b) [book a 30-min Unstuck call with Brandon](https://cos.hyperedge.studio/book?utm_source=grow-command&utm_medium=starter-kit&utm_campaign=ai-cos-starter&utm_content=unstuck)*
 
 The user can remove this from the file template if they don't want it.
 

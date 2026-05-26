@@ -3,7 +3,7 @@
 A free, opinionated starter framework for building your own AI Chief of Staff using Claude Code.
 
 > "I built one for myself in 2025. Now it runs every morning, plans every week, and remembers what matters. Here's how to build yours."
-> — [Brandon Passley](https://hyperedge.studio)
+> — [Brandon Passley](https://hyperedge.studio?utm_source=readme&utm_medium=starter-kit&utm_campaign=ai-cos-starter&utm_content=byline)
 
 ---
 
@@ -109,15 +109,15 @@ Most people have 3-5 setup conversations spread across their first week. None in
 
 Three paths:
 
-- 🆓 **Free 7-Day Email Course** — How to actually use your AI CoS (life plan, OKRs, Rocks, scorecard, advanced commands). [Sign up](https://cos.hyperedge.studio/course)
-- 🤔 **Stuck on something specific?** [Book a 30-min Unstuck call with Brandon](https://cos.hyperedge.studio/book)
-- 🛠️ **Want it built for you?** Hyperedge installs the full Layer 2 system. [Talk to Hyperedge](https://hyperedge.studio)
+- 🆓 **Free 7-Day Email Course** — How to actually use your AI CoS (life plan, OKRs, Rocks, scorecard, advanced commands). [Sign up](https://cos.hyperedge.studio/course?utm_source=readme&utm_medium=starter-kit&utm_campaign=ai-cos-starter&utm_content=course)
+- 🤔 **Stuck on something specific?** [Book a 30-min Unstuck call with Brandon](https://cos.hyperedge.studio/book?utm_source=readme&utm_medium=starter-kit&utm_campaign=ai-cos-starter&utm_content=unstuck)
+- 🛠️ **Want it built for you?** Hyperedge installs the full Layer 2 system. [Talk to Hyperedge](https://hyperedge.studio?utm_source=readme&utm_medium=starter-kit&utm_campaign=ai-cos-starter&utm_content=dfy)
 
 ---
 
 ## About
 
-Built and maintained by [Brandon Passley](https://hyperedge.studio), founder of Hyperedge (AI operating systems for founder-led B2B agencies). Brandon runs two businesses and lives this framework every day.
+Built and maintained by [Brandon Passley](https://hyperedge.studio?utm_source=readme&utm_medium=starter-kit&utm_campaign=ai-cos-starter&utm_content=byline), founder of Hyperedge (AI operating systems for founder-led B2B agencies). Brandon runs two businesses and lives this framework every day.
 
 ## License
 

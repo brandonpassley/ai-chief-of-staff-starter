@@ -217,11 +217,11 @@ Most operators are at Layer 2 (full wedge install) within 2-4 weeks of starting 
 
 ## Need Help?
 
-- 🆓 **Free 7-Day Email Course** — Deeper guide to using your CoS. [Sign up](https://cos.hyperedge.studio/course)
-- 🤔 **Stuck on something specific?** [Book a 30-min Unstuck call with Brandon](https://cos.hyperedge.studio/book)
-- 🛠️ **Want it built for you?** Hyperedge installs the full Layer 2 system. [Talk to Hyperedge](https://hyperedge.studio)
+- 🆓 **Free 7-Day Email Course** — Deeper guide to using your CoS. [Sign up](https://cos.hyperedge.studio/course?utm_source=setup&utm_medium=starter-kit&utm_campaign=ai-cos-starter&utm_content=course)
+- 🤔 **Stuck on something specific?** [Book a 30-min Unstuck call with Brandon](https://cos.hyperedge.studio/book?utm_source=setup&utm_medium=starter-kit&utm_campaign=ai-cos-starter&utm_content=unstuck)
+- 🛠️ **Want it built for you?** Hyperedge installs the full Layer 2 system. [Talk to Hyperedge](https://hyperedge.studio?utm_source=setup&utm_medium=starter-kit&utm_campaign=ai-cos-starter&utm_content=dfy)
 - 💬 **Quick questions?** [Open an issue on GitHub](https://github.com/brandonpassley/ai-chief-of-staff-starter/issues)
 
 ---
 
-Built by [Brandon Passley](https://hyperedge.studio) — founder of Hyperedge. MIT licensed.
+Built by [Brandon Passley](https://hyperedge.studio?utm_source=setup&utm_medium=starter-kit&utm_campaign=ai-cos-starter&utm_content=byline) — founder of Hyperedge. MIT licensed.
