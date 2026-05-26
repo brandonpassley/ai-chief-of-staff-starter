@@ -127,9 +127,9 @@ Claude walks you through: the connection (`.mcp.json`), the configuration, the u
 
 Three paths:
 
-- 🆓 **Free 7-Day Email Course** — Deeper guide to using your CoS at Layer 1 + starting Layer 2: *[signup link]*
-- 🤔 **Stuck on a specific addition?** Book a 30-min Unstuck call with Brandon: *[calendar link]*
-- 🛠️ **Want a layer built for you?** Hyperedge installs Layers 2-5: *[calendar link]*
+- 🆓 **Free 7-Day Email Course** — Deeper guide to using your CoS at Layer 1 + starting Layer 2. [Sign up](https://cos.hyperedge.studio/course)
+- 🤔 **Stuck on a specific addition?** [Book a 30-min Unstuck call with Brandon](https://cos.hyperedge.studio/book)
+- 🛠️ **Want a layer built for you?** Hyperedge installs Layers 2-5. [Talk to Hyperedge](https://hyperedge.studio)
 
 ---
 

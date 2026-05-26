@@ -109,9 +109,9 @@ Most people have 3-5 setup conversations spread across their first week. None in
 
 Three paths:
 
-- 🆓 **Free 7-Day Email Course** — How to actually use your AI CoS (life plan, OKRs, Rocks, scorecard, advanced commands). *[Signup link — coming soon]*
-- 🤔 **Stuck on something specific?** Book a 30-min Unstuck call with Brandon ($250). *[Calendar link]*
-- 🛠️ **Want it built for you?** Hyperedge installs the full Layer 2 system ($2-4K, 1-2 wks). *[Calendar link]*
+- 🆓 **Free 7-Day Email Course** — How to actually use your AI CoS (life plan, OKRs, Rocks, scorecard, advanced commands). [Sign up](https://cos.hyperedge.studio/course)
+- 🤔 **Stuck on something specific?** [Book a 30-min Unstuck call with Brandon](https://cos.hyperedge.studio/book)
+- 🛠️ **Want it built for you?** Hyperedge installs the full Layer 2 system. [Talk to Hyperedge](https://hyperedge.studio)
 
 ---
 
